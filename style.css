@@ -1,0 +1,319 @@
+/*#992114*/
+/*#1A3112*/
+/*#C5A436*/
+
+h5{
+  font-family: 'Cookie', cursive;
+  font-family: 'Great Vibes', cursive;
+  font-family: 'Sacramento', cursive;
+  font-family: 'Pinyon Script', cursive;
+  font-family: 'Nothing You Could Do', cursive;
+  font-family: 'Parisienne', cursive;
+  font-family: 'Italianno', cursive;
+  font-family: 'The Girl Next Door', cursive;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-family: 'Dancing Script', cursive;
+
+}
+
+section{
+    padding-bottom: 20px;
+    position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+section:before, section:after
+{
+    content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:0;
+    bottom:0;
+    left:10px;
+    right:10px;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
+
+body{
+  text-align: center;
+}
+
+p{
+  padding: 20px;
+}
+
+div{
+  height: 50px;
+  width: 100%;
+  background-color: #C5A436;
+}
+
+img {
+  width: 60%;
+  margin: auto;
+  margin-top: 10px;
+  display: block;
+  position: relative;
+  -webkit-box-shadow:0 4px 2px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow:0 5px 4px rgba(0, 0, 0, 0.3);
+  box-shadow:0 8px 10px rgba(0, 0, 0, 0.3);
+}
+
+img:before, img:after {
+   content:"";
+   position:absolute;
+   z-index:-1;
+   -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+   -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+   box-shadow:0 0 20px rgba(0,0,0,0.8);
+   top:10px;
+   bottom:10px;
+   left:0;
+   right:0;
+   -moz-border-radius:100px / 10px;
+   border-radius:100px / 10px;
+}
+img:after {
+   right:10px;
+   left:auto;
+   -webkit-transform:skew(8deg) rotate(3deg);
+   -moz-transform:skew(8deg) rotate(3deg);
+   -ms-transform:skew(8deg) rotate(3deg);
+   -o-transform:skew(8deg) rotate(3deg);
+   transform:skew(8deg) rotate(3deg);
+}
+
+h4{
+  font-family: 'Dancing Script', cursive;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: auto;
+  width: 80%;
+  text-align: center;
+  color: silver;
+  font-size: 30px;
+}
+#section-1{
+  background-color: #992114;
+  font-family: 'Cookie', cursive;
+
+}
+
+#section-1 h1{
+  color:#1A3112;
+  font-size: 200px;
+  padding-top: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+  text-shadow:
+   1px 0px 1px #ccc, 0px 1px 1px #eee,
+   2px 1px 1px #ccc, 1px 2px 1px #eee,
+   3px 2px 1px #ccc, 2px 3px 1px #eee,
+   4px 3px 1px #ccc, 3px 4px 1px #eee,
+   5px 4px 1px #ccc, 4px 5px 1px #eee,
+   6px 5px 1px #ccc, 5px 6px 1px #eee,
+   7px 6px 1px #ccc;
+}
+
+#section-1 h2{
+  color: silver;
+  font-size: 250px;
+  margin-top: 30px;
+  text-align: center;
+  display: inline-block;
+  text-shadow:6px 6px 0px rgba(0,0,0,0.2);
+}
+#section-1 img{
+  margin-left: 75px;
+  margin-right: 75px;
+  display: inline-block;
+  width: 200px;
+  box-shadow: none;
+}
+#section-2{
+  color: silver;
+  font-family: 'Great Vibes', cursive;
+  background-color: #992114;
+  font-size: 30px;
+}
+
+#section-3{
+  background-color: #1A3112;
+  color: silver;
+  font-size: 40px;
+}
+
+#section-4{
+  background-color: #992114;
+  font-family: 'Pinyon Script', cursive;
+  font-size: 80px;
+  color: silver;
+}
+#section-4 p{
+  padding: 50px;
+}
+#section-5{
+  padding-top: 50px;
+  height: 100px;
+  background-color: #1A3112;
+  color: silver;
+  font-family: 'Parisienne', cursive;
+  height: 500px;
+  font-size: 50px;
+}
+#section-5 h4{
+  padding: 100px;
+}
+
+#section-6{
+  background-color: #992114;
+  font-size: 30px;
+  color: silver;
+  font-family: 'Nothing You Could Do', cursive;
+  padding-top: 30px;
+}
+#section-6 img{
+  padding-top: 50px;
+}
+#section-6 h4{
+  padding-top: 20px;
+}
+#section-7{
+  background-color: #1A3112;
+  padding-top: 40px;
+  color: silver;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 40px;
+}
+#section-7 h4{
+
+}
+#section-8{
+  background-color: #992114;
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  color: silver;
+}
+#section-9{
+  background-color: #1A3112;
+  font-family: 'Dancing Script', cursive;
+  color: silver;
+  font-size: 40px;
+}
+
+#section-10{
+  background-color: #992114;
+  font-size: 100px;
+}
+
+#but-then{
+  font-size: 100px;
+  padding-bottom: 400px;
+}
+
+#section-11{
+  background-color: #1A3112;
+  font-size: 80px;
+}
+#section-12{
+  background-color: #992114;
+  font-size: 30px;
+  color: silver;
+}
+
+#section-13{
+  background-color: #1A3112;
+  font-size: 30px;
+  color: silver;
+}
+
+#section-14{
+  background-color: #992114;
+  color: silver;
+  font-size: 30px;
+}
+#section-15{
+  background-color: #1A3112;
+  color: silver;
+  font-size: 30px;
+
+}
+#section-16{
+  background-color: #992114;
+
+}
+#section-17{
+  background-color: #1A3112;
+
+}
+#section-18{
+  background-color: #992114;
+
+}
+#section-19{
+  background-color: #1A3112;
+
+}
+#section-20{
+  background-color: #992114;
+
+}
+#section-21{
+  background-color: #1A3112;
+
+}
+#section-22{
+  background-color: #992114;
+
+}
+#section-23{
+  background-color: #1A3112;
+
+}
+#section-24{
+  background-color:  #992114;
+
+}
+#section-25{
+  background-color:  #1A3112;
+}
+#section-26{
+  background-color:  #992114;
+}
+#section-27{
+  background-color:  #1A3112;
+}
+#section-28{
+  background-color:  #992114;
+}
+#section-29{
+  background-color: #1A3112;
+}
+#is{
+  padding-top: 500px;
+}
+#section-30{
+  background-color: #992114;
+}
+h3{
+  padding-top: 100px;
+  padding-bottom: 50px;
+  font-family: 'Rock Salt', cursive;
+  font-size: 100px;
+  color: silver;
+}
+#section-31{
+  background: #2F7336; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #2F7336 , #AA3A38); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #2F7336 , #AA3A38); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#section-31 h3{
+      font-family: 'Dancing Script', cursive;
+}
